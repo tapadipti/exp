@@ -1,0 +1,8 @@
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - src/train.py
+    params:
+    - train.param1
+    - train.param2
