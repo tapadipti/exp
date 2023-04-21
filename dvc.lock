@@ -1,0 +1,12 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: src/train.py
+      md5: dee5c46989f5ec092311188f4fe829c3
+      size: 9
+    params:
+      params.yaml:
+        train.param1: c
+        train.param2: b
